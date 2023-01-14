@@ -1,0 +1,49 @@
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+h4 {
+  font-size: 46px;
+  line-height: 64px;
+  color: #222;
+}
+h2 {
+  font-size: 20px;
+  color: #222;
+}
+h6 {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+                                      /* NORMAL CSS STARTS */
+#hero {
+    background-image: url(../images/3d-render-cartoon-character-young-260nw-2117403974.webp);
+    /* background-repeat: no-repeat; */
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero  h4{
+    padding-bottom: 15px;
+
+}
+#hero h1{
+    color: #0d7e0d;
+}
+#hero button{
+    color: #0d7e0d;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
+}
